@@ -43,5 +43,11 @@ src: ./pages/hardware/index.md
 <!-- Slides will be imported from ./pages/hardware/index.md -->
 
 ---
+src: ./pages/software/index.md
+---
+
+<!-- Slides will be imported from ./pages/software/index.md -->
+
+---
 layout: end
 ---

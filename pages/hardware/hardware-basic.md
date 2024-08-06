@@ -91,8 +91,8 @@ layout: two-cols
   - 价格较高
 
 ::right::
-<ImageWithHint src="../../images/msata_ssd_vs_sata_hdd.png" :alt="'上：mSATA固态硬盘 下：3.5寸SATA机械硬盘'" class="w-80% m-auto" />
-<ImageWithHint src="../../images/nvme_960pro.png" alt="M.2 接口的 NVMe SSD" class="w-full" />
+<ImageWithHint src="../../images/msata_ssd_vs_sata_hdd.png" :alt="'上：mSATA固态硬盘 下：3.5寸SATA机械硬盘'" imgClass="w-80% m-auto" />
+<ImageWithHint src="../../images/nvme_960pro.png" alt="M.2 接口的 NVMe SSD" imgClass="w-full" />
 
 ---
 

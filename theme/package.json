@@ -34,5 +34,9 @@
     "@slidev/types": "^0.47.0",
     "codemirror-theme-vars": "^0.1.2",
     "prism-theme-vars": "^0.2.4"
+  },
+  "devDependencies": {
+    "@tsconfig/node20": "^20.1.4",
+    "@vue/tsconfig": "^0.5.1"
   }
 }

@@ -1,5 +1,6 @@
 <script setup lang="ts">
-import { PropType, computed } from 'vue'
+import type { PropType  } from 'vue';
+import { computed } from 'vue'
 import Logo from './Logo.vue'
 import { SNCLogoVariant } from '../types/SNCLogo'
 
@@ -12,15 +13,12 @@ const props = defineProps({
     src: undefined,
 })
 
-import imgWTextUrl from '../assets/images/SNC_logo_with_text.svg'
-import imgWoTextUrl from '../assets/images/SNC_logo_without_text.svg'
-
 const src = computed(() => {
     switch (props.variant) {
         case SNCLogoVariant.WithText:
-            return imgWTextUrl
+            return new URL('../assets/images/SNC_logo_with_text.svg', import.meta.url).href
         case SNCLogoVariant.WithoutText:
-            return imgWoTextUrl
+            return new URL('../assets/images/SNC_logo_without_text.svg', import.meta.url).href
     }
 })
 

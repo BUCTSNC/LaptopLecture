@@ -1,5 +1,6 @@
 <script setup lang="ts">
-import { PropType, computed } from 'vue'
+import type { PropType } from 'vue'
+import { computed } from 'vue'
 import { LogoPosition } from '../types/Logo'
 
 const props = defineProps({

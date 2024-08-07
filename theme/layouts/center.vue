@@ -15,9 +15,9 @@ const style = computed(() => handleBackground(props.background, true))
 </script>
 
 <template>
-  <div class="slidev-layout quote">
+  <div class="slidev-layout center h-full grid place-content-center" :style="style">
+    <SlideLogo v-bind="$props" />
     <div class="my-auto">
-      <SlideLogo v-bind="$props" />
       <slot />
     </div>
   </div>

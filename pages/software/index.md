@@ -1,10 +1,10 @@
-# PPT稿件（软件部分）
+# 软件部分
 
 ## 搜索引擎
 
 国内推荐[Bing必应搜索引擎](https://cn.bing.com)，百度广告多内容低质重复
 
-如果计算机专业的学生遇到问题更推荐用**Google**，用**英文**在[Stackoverflow](https://stackoverflow.com/)上找答案
+如果计算机专业的学生遇到问题更推荐用**Google**，用**英文**在[StackOverflow](https://stackoverflow.com/)上找答案
 
 ---
 
@@ -12,7 +12,7 @@
 
 ### 大陆
 
-* **[DeepSeek https://www.deepseek.com/](https://www.deepseek.com/)**
+* [**DeepSeek** https://www.deepseek.com/](https://www.deepseek.com/)
 * [通义千问 https://tongyi.aliyun.com/](https://tongyi.aliyun.com/)
 
 ### 海外
@@ -144,7 +144,7 @@ hideLogo: true
 
 笔记本续航短，厚重，平板用不了大部分桌面软件？那么你需要远程串流！
 
-* Todesk（易用，不推荐）⭐️
+* ToDesk（易用，不推荐）⭐️
 
   有限制时长，码率低帧率低
 * **RDP（微软远程桌面）⭐️⭐️⭐️**
@@ -209,6 +209,7 @@ hideLogo: true
 ---
 layout: section
 ---
+
 ### 常用网站
 
 ---

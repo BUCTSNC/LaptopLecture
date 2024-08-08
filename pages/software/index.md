@@ -2,7 +2,7 @@
 
 ## 搜索引擎
 
-国内推荐[Bing必应搜索引擎](https://cn.bing.com)，百度广告多内容低质重复
+国内推荐[Bing必应搜索引擎](https://cn.bing.com)，某度广告多内容低质重复
 
 如果计算机专业的学生遇到问题更推荐用**Google**，用**英文**在[StackOverflow](https://stackoverflow.com/)上找答案
 
@@ -40,11 +40,11 @@
 
 ### 杀毒软件
 
-拒绝：360/2345/腾讯/金山毒霸等
+拒绝：某60/某45/某讯/某毒霸等
 
 原因：捆绑全家桶、广告弹窗不断，篡改浏览器主页
 
-<ImageWithHint src="../../images/360_sample_screenshot.png" alt="360拦截QQ浏览器篡改主页" imgClass="h-70" class="w-fit m-auto" />
+<ImageWithHint src="../../images/360_sample_screenshot.png" alt="某60广告弹窗" imgClass="h-60" class="w-fit m-auto" />
 
 * Windows Defender
 * 卡巴斯基
@@ -53,7 +53,7 @@
 
 ### 解压缩软件
 
-拒绝：好压/快压/看图王/2345压缩
+拒绝：*压/**45压缩
 
 原因：收费，广告弹窗
 
@@ -68,34 +68,34 @@
 
 历史回顾
 
-1. [搜狗]{.shadi}输入法绕过Windows锁屏高危漏洞:
+1. 某狗输入法绕过Windows锁屏高危漏洞:
 
-    * [相关链接: ██输入法回应绕过Windows锁屏高危漏洞：已进行紧急修复](https://www.landiannews.com/archives/105257.html)
+    * [相关链接: 某狗输入法回应绕过Windows锁屏高危漏洞：已进行紧急修复](https://www.landiannews.com/archives/105257.html)
     * 时间: 2024年8月5日
-2. [搜狗]{.shadi}输入法通过Windows 10/11原生通知系统投放网页游戏广告:
+2. 某狗输入法通过Windows 10/11原生通知系统投放网页游戏广告:
 
-    * [相关链接: 更新 ██输入法被发现通过Windows 10/11原生通知系统投放网页游戏广告](https://www.landiannews.com/archives/101557.html)
+    * [相关链接: 更新 某狗输入法被发现通过Windows 10/11原生通知系统投放网页游戏广告](https://www.landiannews.com/archives/101557.html)
     * 时间: 2023年12月25日
-3. [搜狗]{.shadi}输入法上传用户输入内容且加密系统可被监听:
+3. 某狗输入法上传用户输入内容且加密系统可被监听:
 
-    * [相关链接: 7年后██输入法依然存在严重问题 上传用户输入内容且加密系统可被监听](https://www.landiannews.com/archives/99829.html)
+    * [相关链接: 7年后某狗输入法依然存在严重问题 上传用户输入内容且加密系统可被监听](https://www.landiannews.com/archives/99829.html)
     * 时间: 2023年8月10日
 
 ---
 
-4. [搜狗]{.shadi}和[讯飞]{.shadi}输入法因侵害用户权益被网信办勒令下架:
+4. 某狗输入法因侵害用户权益被网信办勒令下架:
 
-* [相关链接: 因侵害用户权益被网信办勒令下架的██和██输入法已经恢复上架](https://www.landiannews.com/archives/89057.html)
+* [相关链接: 因侵害用户权益被网信办勒令下架的某狗和某飞输入法已经恢复上架](https://www.landiannews.com/archives/89057.html)
 * 时间: 2021年7月20日
 
-1. [搜狗]{.shadi}/[百度]{.shadi}/[讯飞]{.shadi}输入法违规收集个人信息:
+5. 某狗输入法违规收集个人信息:
 
-* [相关链接: 信息泄露知多少：网信办通报██/██/██等输入法违规收集个人信息](https://www.landiannews.com/archives/87915.html)
+* [相关链接: 信息泄露知多少：网信办通报某狗/某度/某飞等输入法违规收集个人信息](https://www.landiannews.com/archives/87915.html)
 * 时间: 2021年5月11日
 
-6. [搜狗]{.shadi}输入法弹出618领红包广告:
+6. 某狗输入法弹出618领红包广告:
 
-* [相关链接: 任务栏疯狂弹出618领红包？放心你没中毒这是██输入法干的](https://www.landiannews.com/archives/75073.html)
+* [相关链接: 任务栏疯狂弹出618领红包？放心你没中毒这是某狗输入法干的](https://www.landiannews.com/archives/75073.html)
 * 时间: 2020年6月5日
 
 7. 有些事情你记不得了，输入法还帮你记着:
@@ -103,9 +103,9 @@
 * [相关链接: 有些事情你记不得了，输入法还帮你记着](https://www.landiannews.com/archives/22118.html)
 * 时间: 2016年5月30日
 
-8. [搜狗]{.shadi}输入法窃取用户数据并通过明文传输:
+8. 某狗输入法窃取用户数据并通过明文传输:
 
-* [相关链接: McAfee曝██输入法窃取用户数据并通过明文传输](https://www.landiannews.com/archives/14132.html)
+* [相关链接: McAfee曝某狗输入法窃取用户数据并通过明文传输](https://www.landiannews.com/archives/14132.html)
 * 时间: 2015年1月20日
 
 ---
@@ -214,6 +214,14 @@ hideLogo: true
 方式一：[网页VPN https://w.buct.edu.cn/](https://w.buct.edu.cn/)
 
 方式二：[客户端VPN https://vpnmotion.buct.edu.cn/](https://vpnmotion.buct.edu.cn/)，内附使用方法
+
+#### 校园网认证
+
+[认证地址 https://tree.buct.edu.cn/](https://tree.buct.edu.cn/)
+
+如果打不开尝试：
+- [http://202.4.130.95/](http://202.4.130.95/) 
+- [http://202.4.130.82/](http://202.4.130.82/)
 
 ---
 layout: two-cols-header

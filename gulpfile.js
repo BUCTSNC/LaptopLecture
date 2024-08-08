@@ -2,6 +2,7 @@ import gulp from "gulp";
 import fs from "fs";
 import { generateColorGradient } from "./gulphelper.js";
 import { exec } from "child_process";
+import { mkdirp } from 'mkdirp'
 
 const generateLaptopRecommendationPages = (sourcePath, json) => {
   let markdown = "";
@@ -181,6 +182,7 @@ gulp.task("generate-laptop-recommendation-pages", () => {
         const jsonData = JSON.parse(data);
         const markdownContent = generateLaptopRecommendationPages(jsonFilePath, jsonData);
 
+        mkdirp.sync(markdownFilePath.substring(0, markdownFilePath.lastIndexOf("/")));
         fs.writeFile(markdownFilePath, markdownContent, (err) => {
           if (err) {
             reject(err);

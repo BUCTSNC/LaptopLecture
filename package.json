@@ -27,6 +27,7 @@
     "@tsconfig/node20": "^20.1.4",
     "@vue/tsconfig": "^0.5.1",
     "gulp": "^5.0.0",
+    "mkdirp": "^3.0.1",
     "playwright-chromium": "^1.45.3"
   }
 }

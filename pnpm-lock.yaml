@@ -39,6 +39,9 @@ importers:
       gulp:
         specifier: ^5.0.0
         version: 5.0.0
+      mkdirp:
+        specifier: ^3.0.1
+        version: 3.0.1
       playwright-chromium:
         specifier: ^1.45.3
         version: 1.45.3
@@ -2429,6 +2432,11 @@ packages:
 
   mkdirp@1.0.4:
     resolution: {integrity: sha512-vVqVZQyf3WLx2Shd0qJ9xuvqgAyKPLAiqITEtqW0oIUjzo3PePDd6fW9iFz30ef7Ysp/oiWqbhszeGWW2T6Gzw==}
+    engines: {node: '>=10'}
+    hasBin: true
+
+  mkdirp@3.0.1:
+    resolution: {integrity: sha512-+NsyUUAZDmo6YVHzL/stxSu3t9YS1iljliy3BSDrXJ/dkn1KYdmtZODGGjLcc9XLgVVpH4KshHB8XmZgMhaBXg==}
     engines: {node: '>=10'}
     hasBin: true
 
@@ -6345,6 +6353,8 @@ snapshots:
 
   mkdirp@1.0.4:
     optional: true
+
+  mkdirp@3.0.1: {}
 
   mlly@1.7.1:
     dependencies:

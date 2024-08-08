@@ -36,13 +36,26 @@ $$
 > 是一种专门在个人电脑、工作站、游戏机和一些移动设备（如平板电脑、智能手机等）上执行**绘图运算工作**的微处理器。以***图形处理器为核心的主板扩展卡***也称**显示卡**或“**显卡**”。—— [维基百科](https://zh.wikipedia.org/wiki/GPU)
 
 根据显卡的位置，我们可以将其分为两类：
-1. 集成显卡
+1. 集成显卡(iGPU)
   - 集成在CPU中，性能较差，但日常够用
   - AMD的CPU携带的集成显卡性能相对更好
-2. 独立显卡（建议直接参考天梯图）
+2. 独立显卡(dGPU)（建议直接参考天梯图）
   - 显存
   - 频率
   - 核心数
+
+---
+
+<!-- TODO: 整理此处 -->
+  - 优点
+    - 相对集成显卡，独立显卡一般拥有更强劲的性能；
+    - 消耗的系统资源更少（目前的独立显卡都有独立的显示内存）；
+    - 拥有例如CUDA一类的在部分领域(例如影视后期等)可以起到辅助工作作用的处理单元。
+  - 缺点
+    - 购置计算机需要更多金钱；
+    - 消耗的功率更多，使电脑功率增加；
+    - 体积更大；
+    - 部分低端独立显卡性能可能不如核心显卡。
 
 如：`NVIDIA RTX 4060 8GB`
 
@@ -107,8 +120,6 @@ layout: iframe
 url: https://www.mydrivers.com/zhuanti/tianti/gpum/
 ---
 
-### 移动端显卡天梯图
-
 ---
 layout: center
 ---
@@ -122,7 +133,7 @@ layout: center
         <QRCodeWithHint
           :width="180"
           type="svg"
-          data="https://www.mydrivers.com/zhuanti/tianti/cpum/"
+          data="https://www.365pcbuy.com/article.php?id=409"
           :imageOptions="{ margin: 10 }"
           :dotsOptions="{ type: 'extra-rounded'}"
           hint="移动端CPU"
@@ -175,3 +186,5 @@ layout: center
 性能释放、噪音
 #### 扩展接口
 USB、HDMI、Type-C、耳机、SD卡槽、RJ45（有线网口）
+
+<!-- TODO: 增加售后相关内容 -->

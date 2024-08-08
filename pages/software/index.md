@@ -6,6 +6,10 @@
 
 如果计算机专业的学生遇到问题更推荐用**Google**，用**英文**在[StackOverflow](https://stackoverflow.com/)上找答案
 
+对于有能力的同学：搜索教程类的建议是**官方文档**，尽量不要找CSDN等搬运，抄袭的内容。很容易出现内容过时，确实关键步骤等问题。
+
+英文看不懂？推荐**沉浸式翻译**浏览器插件
+
 ---
 
 ## AI
@@ -108,7 +112,27 @@
 
 ## 专业软件
 
-每周五晚后勤楼319 X-ware
+安装办公软件、制图软件、编程软件、数学及工程软件、影音软件
+
+办公软件：
+
+**Microsoft Office**
+
+编程软件：
+
+VC++、Dev-C++、**VScode**
+
+影音软件：
+
+Ps、Pr、Ae等其他软件
+
+制图软件：
+
+Inventor、AutoCAD、**SoilWorks**
+
+数学及工程软件：
+
+Maple、**Matlab**、Origin
 
 ---
 
@@ -164,8 +188,6 @@ hideLogo: true
 
 有线（1000Mbps）：宿舍内提供千兆网线端口，可以使用符合RJ45标准的网线进行连接，通过墙上的网口连接后即可访问校园网进行登录操作。
 
----
-
 #### 计费
 
 除BUCT-JX网络外，其余网络均计费，标准为每月50GB免费流量，超出后0.0005元/MB（0.5元/GB），封顶60元（路由器共享）
@@ -202,7 +224,7 @@ layout: two-cols-header
 hideLogo: true
 ---
 
-1. 然后通过校园网自服务平台来进行网费充值
+2. 然后通过校园网自服务平台来进行网费充值
 
 <ImageWithHint src="../../images/campus_net_selfservice_screenshot.jpg" alt="校园网自服务平台" imgClass="h-110" class="w-fit m-auto" />
 
@@ -295,6 +317,69 @@ layout: two-cols-header
 * **网络文明周**
 
   网络文明周活动于2007年4月开始举办，主要目的是宣传网络文明知识开展网络道德及网络法制教育，倡导文明上网，普及电脑及网络知识，调动学生学习计算机网络知识的积极性与主动性，通过丰富多彩的活动形式，活跃校园文化。
+  <ImageWithHint src="../../images/ARG.png" alt="线上ARG活动" imgClass="h-80" class="w-fit m-auto" />
+
+---
+
 * **X-ware**
 
-  X-ware服务是学生网络中心为全校同学**义务**提供的电脑维修等服务，距今已有20年的历史。主要工作是硬件基础维修，同时也会提出一些电脑硬件升级的建议，还会对硬件故障进行排查、装系统，也可以安装一些软件。
+X-ware服务是学生网络中心为全校同学**义务**提供的电脑维修服务，至今已有20年的历史。主要工作包括：
+
+- 提供电脑硬件升级建议
+- 硬件故障排查
+- 系统安装
+- 软件安装
+- 添加或更换硬盘、内存
+- 清灰（包含硅脂）
+- 网卡问题解决
+- 硬盘清理
+- 解决电脑蓝屏问题
+
+---
+layout: two-cols-header
+---
+
+## **联系我们**
+
+有疑问？
+
+欢迎加入学生网络中心X-ware服务群！无论遇到什么问题，都可以在群内提问，或者私聊管理员进行一对一解答。
+
+仍有问题？
+
+关注“学生网络中心”公众号，预约X-ware服务。每周五晚，我们在后勤楼319提供X-ware志愿服务，解决您的一切硬件和软件问题，竭诚为您服务。
+
+X-ware，跨越硬件与软件的桥梁！
+
+<div style="display: flex; justify-content: space-around;">
+  <QRCodeWithHint
+  :width="160"
+  type="svg"
+  data="https://qm.qq.com/q/aCF3RIFxxS"
+  :imageOptions="{ margin: 10 }"
+  :dotsOptions="{ type: 'extra-rounded'}"
+  hint="X-ware服务群1"
+/>
+  <QRCodeWithHint
+  :width="160"
+  type="svg"
+  data="https://qm.qq.com/q/qv9AmYmHBg"
+  :imageOptions="{ margin: 10 }"
+  :dotsOptions="{ type: 'extra-rounded'}"
+  hint="X-ware服务群2"
+/>
+<QRCodeWithHint
+  :width="160"
+  type="svg"
+  data="http://weixin.qq.com/r/TUyuq3DEtbjJKDTIbxnJ"
+  :imageOptions="{ margin: 10 }"
+  :dotsOptions="{ type: 'extra-rounded'}"
+  hint="学生网络中心公众号"
+/>
+</div>
+
+---
+
+5656dsa
+
+---

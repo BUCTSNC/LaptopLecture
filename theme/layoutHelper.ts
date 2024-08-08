@@ -1,5 +1,5 @@
 import type { CSSProperties } from 'vue'
-import { theme } from '@unocss/preset-wind'
+import { colors } from '@unocss/preset-mini'
 
 interface UnoColors {
     [key: string]: UnoColors & {
@@ -22,7 +22,7 @@ export function handleBackground(background?: string, dim = false): CSSPropertie
 
   const colorParts = background.split('-')
   
-  let unboxedColor = theme.colors?.[colorParts[0]]
+  let unboxedColor = (colors as any)[colorParts[0]]
   for (let i = 0; i < colorParts.length && unboxedColor; i++) {
     if (typeof unboxedColor === 'string') {
       background = unboxedColor

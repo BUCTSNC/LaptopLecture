@@ -198,6 +198,17 @@ hideLogo: true
 
 ---
 
+#### 路由器
+
+安装流程
+
+1. 插上电源和网线(网线接路由器的那一端一定要接WAN口，如图所示)
+<ImageWithHint src="../../images/WAN.png" alt="路由器WAN口" imgClass="h-60" class="w-fit m-auto" />
+
+2. 连接未被初始化的WIFI，然后会自动跳转成初始化的网页，进行初始化即可。日常使用5Ghz，或打开双频合一。
+
+---
+
 #### VPN
 
 方式一：[网页VPN https://w.buct.edu.cn/](https://w.buct.edu.cn/)
@@ -317,7 +328,7 @@ layout: two-cols-header
 * **网络文明周**
 
   网络文明周活动于2007年4月开始举办，主要目的是宣传网络文明知识开展网络道德及网络法制教育，倡导文明上网，普及电脑及网络知识，调动学生学习计算机网络知识的积极性与主动性，通过丰富多彩的活动形式，活跃校园文化。
-  <ImageWithHint src="../../images/ARG.png" alt="线上ARG活动" imgClass="h-80" class="w-fit m-auto" />
+  <ImageWithHint src="../../images/ARG.png" alt="线上ARG活动" imgClass="h-60" class="w-fit m-auto" />
 
 ---
 
@@ -377,9 +388,3 @@ X-ware，跨越硬件与软件的桥梁！
   hint="学生网络中心公众号"
 />
 </div>
-
----
-
-5656dsa
-
----

@@ -238,5 +238,5 @@ gulp.task("slidev-export", (cb) => {
 
 gulp.task("pre", gulp.series("generate-laptop-recommendation-pages"));
 gulp.task("build", gulp.series("pre", "slidev-build"));
-gulp.task("dev", gulp.series("generate-laptop-recommendation-pages", "slidev-dev"));
-gulp.task("export", gulp.series("generate-laptop-recommendation-pages", "slidev-export"));
+gulp.task("dev", gulp.series("pre", "slidev-dev"));
+gulp.task("export", gulp.series("pre", "slidev-export"));

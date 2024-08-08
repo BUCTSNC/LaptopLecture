@@ -23,6 +23,12 @@ src: ./faqs/index.md
 <!-- Slides will be imported from ./pages/hardware/faqs/index.md -->
 
 ---
+src: ./recommendation/index.md
+---
+
+<!-- Slides will be imported from ./pages/hardware/recommendation/index.md -->
+
+---
 src: ./laptop-buying-guide.md
 ---
 

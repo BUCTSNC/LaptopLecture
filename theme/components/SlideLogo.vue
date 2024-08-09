@@ -9,6 +9,8 @@ import Logo from '../components/Logo.vue'
 const varientMap = {
   sncWithText: SNCLogoVariant.WithText,
   sncWithoutText: SNCLogoVariant.WithoutText,
+  sncWithTextWhite: SNCLogoVariant.WithTextWhite,
+  sncWithoutTextWhite: SNCLogoVariant.WithoutTextWhite,
   custom: undefined,
 }
 

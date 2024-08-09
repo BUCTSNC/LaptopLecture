@@ -19,6 +19,10 @@ const src = computed(() => {
             return new URL('../assets/images/SNC_logo_with_text.svg', import.meta.url).href
         case SNCLogoVariant.WithoutText:
             return new URL('../assets/images/SNC_logo_without_text.svg', import.meta.url).href
+        case SNCLogoVariant.WithTextWhite:
+            return new URL('../assets/images/SNC_logo_with_text_white.svg', import.meta.url).href
+        case SNCLogoVariant.WithoutTextWhite:
+            return new URL('../assets/images/SNC_logo_without_text_white.svg', import.meta.url).href
     }
 })
 

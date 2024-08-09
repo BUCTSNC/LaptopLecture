@@ -53,9 +53,8 @@ const generateLaptopRecommendationPages = (sourcePath, json) => {
 
   let curRangeIndex = 0;
 
-  markdown += `<!-- This file is generated from ${sourcePath}, please don't edit this file -->\n\n`;
-
   markdown += `---
+# This file is generated from ${sourcePath}, please don't edit this file
 layout: center
 ---
   

@@ -15,7 +15,7 @@ const style = computed(() => handleBackground(props.background, true))
 </script>
 
 <template>
-  <div class="slidev-layout default">
+  <div class="slidev-layout default" :style="style">
     <SlideLogo v-bind="$props" />
     <slot />
   </div>

@@ -29,37 +29,158 @@ $$
 $$
 
 ---
+layout: cols
+---
+
+::0::
+<div class="text-center p-8 bg-white h-32 mr-4">
+<img src="/images/Intel_Logo.svg" alt="Intel Logo" class="h-full m-auto" />
+</div>
+
+## 英特尔
+<div class="text-center mr-4">
+<img src="/images/intel_series_cut.png" alt="Intel产品线比较表格" class="h-fit w-full" />
+</div>
+
+::1::
+<div class="text-center p-8 bg-white h-32 mr-4">
+<img src="/images/AMD_Logo.svg" alt="AMD Logo" class="h-full m-auto" />
+</div>
+
+## AMD
+
+CPU参数查询:
+
+<div class="grid grid-cols-2 gap-8 w-fit m-auto">
+  <QRCodeWithHint
+    :width="180"
+    type="svg"
+    data="https://ark.intel.com"
+    :imageOptions="{ margin: 10 }"
+    :dotsOptions="{ type: 'extra-rounded'}"
+    hint="Intel"
+  />
+  <QRCodeWithHint
+    :width="180"
+    type="svg"
+    data="https://www.amd.com/zh-cn/products/specifications/processors.html"
+    :imageOptions="{ margin: 10 }"
+    :dotsOptions="{ type: 'extra-rounded'}"
+    hint="AMD"
+  />
+</div>
+
+---
+layout: statement
+background: slate-400
+---
+
+#### [没听懂？看数字！]{.text-white .text-7xl}
+
+---
+layout: image
+image: /images/intel_naming/core_iseries.png
+---
+
+##### 酷睿™ i系列
+
+<!-- SKU越大越强，但是如果要量化，还得查前面的参数
+如果是购买游戏本，看到这就够了，下面的两个命名形式的都没有这个强 -->
+
+---
+layout: image
+image: /images/intel_naming/core_iseries.png
+---
+
+##### 酷睿™ 系列
+
+<!-- 发觉有什么不同吗？对喽！这里没有i！还有，这里是三位 -->
+
+---
+layout: image
+image: /images/intel_naming/core_iseries.png
+---
+
+##### 酷睿™ Ultra 系列
+
+---
+layout: statement
+background: stone-900
+---
+
+<div class="grid grid-flow-col auto-cols-auto w-fit m-auto text-6xl leading-tight underline-offset-6 hover:underline-offset-12 text-slate-100 hover:decoration-indigo-500 transition-all duration-300 ease-out">
+  <div class="bg-red-500 p-4 pr-0">
+    <u class="decoration-3 decoration-sky-500 hover:decoration-sky-400">HX > HK > H ></u>
+    <br/>
+    游戏
+  </div>
+  <div class="bg-cyan-400 p-4 pl-0">
+    <u class="decoration-3 decoration-pink-500 hover:decoration-pink-400">> P > U > Y</u>
+    <br/>
+    轻娱乐/办公
+  </div>
+</div>
+
+<!-- 前三者：游戏模式，耗电嗷嗷快
+后三者：省电模式，耗电慢点，当然性能也差点 -->
+
+---
+layout: image
+image: /images/amd_naming.jpg
+backgroundSize: contain
+---
+
+##### AMD® Ryzen 7000 系列 移动端
+
+---
 
 ### 图形处理器(GPU)
 > **图形处理器**（英语：**G**raphics **P**rocessing **U**nit，缩写：**GPU**）
 > 
 > 是一种专门在个人电脑、工作站、游戏机和一些移动设备（如平板电脑、智能手机等）上执行**绘图运算工作**的微处理器。以***图形处理器为核心的主板扩展卡***也称**显示卡**或“**显卡**”。—— [维基百科](https://zh.wikipedia.org/wiki/GPU)
 
+- 显存
+- 频率
+- 核心数
+
 根据显卡的位置，我们可以将其分为两类：
 1. 集成显卡(iGPU)
   - 集成在CPU中，性能较差，但日常够用
   - AMD的CPU携带的集成显卡性能相对更好
-2. 独立显卡(dGPU)（建议直接参考天梯图）
-  - 显存
-  - 频率
-  - 核心数
 
 ---
 
-<!-- TODO: 整理此处 -->
+2. 独立显卡(dGPU)
   - 优点
-    - 相对集成显卡，独立显卡一般拥有更强劲的性能；
-    - 消耗的系统资源更少（目前的独立显卡都有独立的显示内存）；
-    - 拥有例如CUDA一类的在部分领域(例如影视后期等)可以起到辅助工作作用的处理单元。
+    - 性能更强
+    - 拥有CUDA核心一类的加速单元，在部分领域(例如影视后期、机器学习等)起到辅助、加速作用
   - 缺点
-    - 购置计算机需要更多金钱；
-    - 消耗的功率更多，使电脑功率增加；
-    - 体积更大；
-    - 部分低端独立显卡性能可能不如核心显卡。
-
-如：`NVIDIA RTX 4060 8GB`
+    - 贵
+    - 功耗高
+    - 体积更大
+    - 部分低端独立显卡性能可能不如核心显卡
 
 ---
+layout: fullpage
+background: black
+hideLogo: true
+---
+
+<div class="overflow-y-auto h-150 w-full px-16">
+  <img src="/images/geforce_laptops_compare.png" class="w-full h-fit" />
+</div>
+
+---
+layout: image
+image: /images/ababa.png
+backgroundSize: 20em
+---
+
+<!-- 那么有没有不用看这些参数，也能方便选择的办法呢？ -->
+
+---
+
+#### 集成显卡的选择
 
 如果你选择集成显卡的话，那么你在购买的时候就不必在这方面耗费精力，参考CPU本身的性能即可
 
@@ -67,6 +188,35 @@ $$
 - 如果你不需要独立显卡，那么你对显卡性能的需求不很敏感
 - 集成显卡的性能差别不大
 - 更高端的CPU一般会配备更强的集成显卡
+
+---
+layout: statement
+background: slate-500
+title: 独立显卡的选择
+---
+
+#### [教数数环节到！]{.text-white .text-7xl}
+
+---
+layout: statement
+background: slate-500
+---
+
+<style>
+code {
+  --uno: 'dark !text-7xl'
+}
+</style>
+
+`NVIDIA RTX 4060 8GB`
+
+---
+layout: iframe
+url: https://www.mydrivers.com/zhuanti/tianti/gpum/
+---
+
+<!-- 代际比较
+当然，你也可以选择查询天梯图，会更加准确 -->
 
 ---
 
@@ -116,62 +266,45 @@ layout: two-cols
 当前的系统需求决定了使用机械硬盘几乎必然会遇到系统卡顿的问题，而且新的笔记本基本都只包含M.2接口，无法安装机械硬盘。
 
 ---
-layout: iframe
-url: https://www.mydrivers.com/zhuanti/tianti/gpum/
----
-
----
 layout: center
 ---
 
 ### 天梯图
 
-<table>
-  <tbody>
-    <tr>
-      <td>
-        <QRCodeWithHint
-          :width="180"
-          type="svg"
-          data="https://www.365pcbuy.com/article.php?id=409"
-          :imageOptions="{ margin: 10 }"
-          :dotsOptions="{ type: 'extra-rounded'}"
-          hint="移动端CPU"
-        />
-      </td>
-      <td>
-        <QRCodeWithHint
-          :width="180"
-          type="svg"
-          data="https://www.mydrivers.com/zhuanti/tianti/gpum/"
-          :imageOptions="{ margin: 10 }"
-          :dotsOptions="{ type: 'extra-rounded'}"
-          hint="移动端显卡"
-        />
-      </td>
-      <td>
-        <QRCodeWithHint
-          :width="180"
-          type="svg"
-          data="https://www.mydrivers.com/zhuanti/tianti/cpu/"
-          :imageOptions="{ margin: 10 }"
-          :dotsOptions="{ type: 'extra-rounded'}"
-          hint="桌面端CPU"
-        />
-      </td>
-      <td>
-        <QRCodeWithHint
-          :width="180"
-          type="svg"
-          data="https://www.mydrivers.com/zhuanti/tianti/gpu/"
-          :imageOptions="{ margin: 10 }"
-          :dotsOptions="{ type: 'extra-rounded'}"
-          hint="桌面端显卡"
-        />
-      </td>
-    </tr>
-  </tbody>
-</table>
+<div class="grid grid-cols-4 gap-8 w-fit m-auto">
+  <QRCodeWithHint
+    :width="180"
+    type="svg"
+    data="https://www.365pcbuy.com/article.php?id=409"
+    :imageOptions="{ margin: 10 }"
+    :dotsOptions="{ type: 'extra-rounded'}"
+    hint="移动端CPU"
+  />
+  <QRCodeWithHint
+    :width="180"
+    type="svg"
+    data="https://www.mydrivers.com/zhuanti/tianti/gpum/"
+    :imageOptions="{ margin: 10 }"
+    :dotsOptions="{ type: 'extra-rounded'}"
+    hint="移动端显卡"
+  />
+  <QRCodeWithHint
+    :width="180"
+    type="svg"
+    data="https://www.mydrivers.com/zhuanti/tianti/cpu/"
+    :imageOptions="{ margin: 10 }"
+    :dotsOptions="{ type: 'extra-rounded'}"
+    hint="桌面端CPU"
+  />
+  <QRCodeWithHint
+    :width="180"
+    type="svg"
+    data="https://www.mydrivers.com/zhuanti/tianti/gpu/"
+    :imageOptions="{ margin: 10 }"
+    :dotsOptions="{ type: 'extra-rounded'}"
+    hint="桌面端显卡"
+  />
+</div>
 
 ---
 

@@ -28,6 +28,12 @@ logoPosition: "top-right"
 </div>
 
 ---
+src: ./pages/signin.md
+---
+
+<!-- Slides will be imported from ./pages/signin.md -->
+
+---
 src: ./pages/hardware/index.md
 ---
 

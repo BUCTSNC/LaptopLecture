@@ -12,7 +12,7 @@ layout: cols
 ### Intel 13、14代 CPU缩缸问题
 
 ::0::
-<ImageWithHint src="../../../images/intel_13_14thgen_announce.png" alt="13、14代缩缸（主要影响桌面端）" imgClass="w-full" class="m-auto" />
+<ImageWithHint src="/images/intel_13_14thgen_announce.png" alt="13、14代缩缸（主要影响桌面端）" imgClass="w-full" class="m-auto" />
 
 ::1::
 

@@ -323,5 +323,3 @@ layout: center
 性能释放、噪音
 #### 扩展接口
 USB、HDMI、Type-C、耳机、SD卡槽、RJ45（有线网口）
-
-<!-- TODO: 增加售后相关内容 -->

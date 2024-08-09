@@ -30,6 +30,7 @@ $$
 
 ---
 layout: cols
+title: CPU品牌
 ---
 
 ::0::
@@ -37,7 +38,7 @@ layout: cols
 <img src="/images/Intel_Logo.svg" alt="Intel Logo" class="h-full m-auto" />
 </div>
 
-## 英特尔
+#### [英特尔]{.text-3xl}
 <div class="text-center mr-4">
 <img src="/images/intel_series_cut.png" alt="Intel产品线比较表格" class="h-fit w-full" />
 </div>
@@ -47,7 +48,7 @@ layout: cols
 <img src="/images/AMD_Logo.svg" alt="AMD Logo" class="h-full m-auto" />
 </div>
 
-## AMD
+#### [AMD]{.text-3xl}
 
 CPU参数查询:
 
@@ -73,6 +74,7 @@ CPU参数查询:
 ---
 layout: statement
 background: slate-400
+title: 没听懂？看数字！
 ---
 
 #### [没听懂？看数字！]{.text-white .text-7xl}
@@ -82,7 +84,7 @@ layout: image
 image: /images/intel_naming/core_iseries.png
 ---
 
-##### 酷睿™ i系列
+##### Intel® 酷睿™ i系列
 
 <!-- SKU越大越强，但是如果要量化，还得查前面的参数
 如果是购买游戏本，看到这就够了，下面的两个命名形式的都没有这个强 -->
@@ -92,7 +94,7 @@ layout: image
 image: /images/intel_naming/core_iseries.png
 ---
 
-##### 酷睿™ 系列
+##### Intel® 酷睿™ 系列
 
 <!-- 发觉有什么不同吗？对喽！这里没有i！还有，这里是三位 -->
 
@@ -101,7 +103,7 @@ layout: image
 image: /images/intel_naming/core_iseries.png
 ---
 
-##### 酷睿™ Ultra 系列
+##### Intel® 酷睿™ Ultra 系列
 
 ---
 layout: statement
@@ -170,6 +172,7 @@ hideLogo: true
   <img src="/images/geforce_laptops_compare.png" class="w-full h-fit" />
 </div>
 
+<!-- From: https://www.nvidia.cn/geforce/laptops/compare/ -->
 ---
 layout: image
 image: /images/ababa.png
@@ -248,7 +251,7 @@ layout: two-cols
   - (m)SATA接口&SATA协议
   - M.2接口
     - SATA协议 -- 速度相对慢
-    - NVMe协议(NVMe 3.0/4.0)
+    - NVMe协议(NVMe PCIe 3.0/4.0)
   - 速度快
   - 不易受到物理冲击影响
   - 价格较高
@@ -261,7 +264,8 @@ layout: two-cols
 
 在此，我建议：
 - 只选择固态硬盘
-- 如果你真的**用电脑**，1TB会很快用完
+- 如果购买512GB的机型，一定考虑购回后自行购买，更换或增加硬盘
+- 如果你经常**用电脑**，1TB会很快用完
 
 当前的系统需求决定了使用机械硬盘几乎必然会遇到系统卡顿的问题，而且新的笔记本基本都只包含M.2接口，无法安装机械硬盘。
 

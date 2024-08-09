@@ -13,9 +13,15 @@ fonts:
   serif: Times New Roman
   mono: Consolas
 logoPosition: "top-right"
+background: slate-950
+logoVariant: sncWithTextWhite
 ---
 
-# 笔记本知识讲座
+# [笔记本知识讲座]{.text-slate-100}
+
+<div class="absolute top-0 right-0 h-full flex items-center">
+  <img src="/images/mc_laptop.png" class="h-120 m-12" />
+</div>
 
 <div class="abs-br m-6 flex gap-2">
   <button @click="$slidev.nav.openInEditor()" title="Open in Editor" class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">

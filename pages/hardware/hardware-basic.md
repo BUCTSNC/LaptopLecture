@@ -54,7 +54,7 @@ CPU参数查询:
 <div class="grid grid-cols-2 gap-8 w-fit m-auto">
   <QRCodeWithHint
     :width="180"
-    type="svg"
+    type="canvas"
     data="https://ark.intel.com"
     :imageOptions="{ margin: 10 }"
     :dotsOptions="{ type: 'extra-rounded'}"
@@ -62,7 +62,7 @@ CPU参数查询:
   />
   <QRCodeWithHint
     :width="180"
-    type="svg"
+    type="canvas"
     data="https://www.amd.com/zh-cn/products/specifications/processors.html"
     :imageOptions="{ margin: 10 }"
     :dotsOptions="{ type: 'extra-rounded'}"
@@ -274,7 +274,7 @@ layout: center
 <div class="grid grid-cols-4 gap-8 w-fit m-auto">
   <QRCodeWithHint
     :width="180"
-    type="svg"
+    type="canvas"
     data="https://www.365pcbuy.com/article.php?id=409"
     :imageOptions="{ margin: 10 }"
     :dotsOptions="{ type: 'extra-rounded'}"
@@ -282,7 +282,7 @@ layout: center
   />
   <QRCodeWithHint
     :width="180"
-    type="svg"
+    type="canvas"
     data="https://www.mydrivers.com/zhuanti/tianti/gpum/"
     :imageOptions="{ margin: 10 }"
     :dotsOptions="{ type: 'extra-rounded'}"
@@ -290,7 +290,7 @@ layout: center
   />
   <QRCodeWithHint
     :width="180"
-    type="svg"
+    type="canvas"
     data="https://www.mydrivers.com/zhuanti/tianti/cpu/"
     :imageOptions="{ margin: 10 }"
     :dotsOptions="{ type: 'extra-rounded'}"
@@ -298,7 +298,7 @@ layout: center
   />
   <QRCodeWithHint
     :width="180"
-    type="svg"
+    type="canvas"
     data="https://www.mydrivers.com/zhuanti/tianti/gpu/"
     :imageOptions="{ margin: 10 }"
     :dotsOptions="{ type: 'extra-rounded'}"

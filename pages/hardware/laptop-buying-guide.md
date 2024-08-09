@@ -7,7 +7,7 @@ layout: center
 <QRCodeWithHint
   class="m-auto w-fit"
   :width="360"
-  type="svg"
+  type="canvas"
   data="https://www.coolapk1s.com/feed/57985545"
   :imageOptions="{ margin: 10 }"
   :dotsOptions="{ type: 'extra-rounded', color: 'green' }"

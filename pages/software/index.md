@@ -373,7 +373,7 @@ X-ware，跨越硬件与软件的桥梁！
 <div style="display: flex; justify-content: space-around;">
   <QRCodeWithHint
   :width="160"
-  type="svg"
+  type="canvas"
   data="https://qm.qq.com/q/aCF3RIFxxS"
   :imageOptions="{ margin: 10 }"
   :dotsOptions="{ type: 'extra-rounded'}"
@@ -381,7 +381,7 @@ X-ware，跨越硬件与软件的桥梁！
 />
   <QRCodeWithHint
   :width="160"
-  type="svg"
+  type="canvas"
   data="https://qm.qq.com/q/qv9AmYmHBg"
   :imageOptions="{ margin: 10 }"
   :dotsOptions="{ type: 'extra-rounded'}"
@@ -389,7 +389,7 @@ X-ware，跨越硬件与软件的桥梁！
 />
 <QRCodeWithHint
   :width="160"
-  type="svg"
+  type="canvas"
   data="http://weixin.qq.com/r/TUyuq3DEtbjJKDTIbxnJ"
   :imageOptions="{ margin: 10 }"
   :dotsOptions="{ type: 'extra-rounded'}"

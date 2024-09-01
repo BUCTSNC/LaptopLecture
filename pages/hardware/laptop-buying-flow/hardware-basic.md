@@ -91,7 +91,7 @@ image: /images/intel_naming/core_iseries.png
 
 ---
 layout: image
-image: /images/intel_naming/core_iseries.png
+image: /images/intel_naming/core.png
 ---
 
 ##### Intel® 酷睿™ 系列
@@ -100,7 +100,7 @@ image: /images/intel_naming/core_iseries.png
 
 ---
 layout: image
-image: /images/intel_naming/core_iseries.png
+image: /images/intel_naming/core_ultra.png
 ---
 
 ##### Intel® 酷睿™ Ultra 系列

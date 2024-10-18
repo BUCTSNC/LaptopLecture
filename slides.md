@@ -34,10 +34,10 @@ logoVariant: sncWithTextWhite
 </div>
 
 ---
-src: ./pages/signin.md
+src: ./pages/checkin.md
 ---
 
-<!-- Slides will be imported from ./pages/signin.md -->
+<!-- Slides will be imported from ./pages/checkin.md -->
 
 ---
 src: ./pages/hardware/index.md
@@ -50,6 +50,12 @@ src: ./pages/software/index.md
 ---
 
 <!-- Slides will be imported from ./pages/software/index.md -->
+
+---
+src: ./pages/checkout.md
+---
+
+<!-- Slides will be imported from ./pages/checkout.md -->
 
 ---
 layout: end

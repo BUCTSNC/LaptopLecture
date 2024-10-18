@@ -50,7 +50,7 @@
 
   思维导图绘制
 
-<ImageWithHint src="../../images/drawio_screenshot.png" alt="Draw.io" imgClass="h-85" class="w-fit m-auto" />
+<ImageWithHint src="/images/drawio_screenshot.png" alt="Draw.io" imgClass="h-85" class="w-fit m-auto" />
 
 ---
 hideLogo: true
@@ -60,7 +60,7 @@ hideLogo: true
 
   类似几何画板，二维三维绘图
 
-<ImageWithHint src="../../images/geogebra_screenshot.png" alt="Geogebra" imgClass="h-95" class="w-fit m-auto" />
+<ImageWithHint src="/images/geogebra_screenshot.png" alt="Geogebra" imgClass="h-95" class="w-fit m-auto" />
 
 ---
 hideLogo: true
@@ -68,7 +68,7 @@ hideLogo: true
 
 * [Visual Studio Code 微软应用商店](https://apps.microsoft.com/store/detail/XP9KHM4BK9FZ7Q)
 
-<ImageWithHint src="../../images/vscode_screenshot.png" alt="Visual Studio Code" imgClass="h-110" class="w-fit m-auto" />
+<ImageWithHint src="/images/vscode_screenshot.png" alt="Visual Studio Code" imgClass="h-110" class="w-fit m-auto" />
 
 ---
 
@@ -113,10 +113,10 @@ hideLogo: true
 学校NFC可以刷房门和食堂部分机器
 
 <div style="display: flex; justify-content: space-around;">
-<ImageWithHint src="../../images/NFC1.jpg" alt="1.下载北京一卡通" imgClass="h-80" class="w-fit m-auto" />
-<ImageWithHint src="../../images/NFC2.jpg" alt="2.添加学生卡" imgClass="h-80" class="w-fit m-auto" />
-<ImageWithHint src="../../images/NFC3.jpg" alt="3.添加成功" imgClass="h-80" class="w-fit m-auto" />
-<ImageWithHint src="../../images/NFC4.jpg" alt="4.NFC模拟校园卡" imgClass="h-80" class="w-fit m-auto" />
+<ImageWithHint src="/images/NFC1.jpg" alt="1.下载北京一卡通" imgClass="h-80" class="w-fit m-auto" />
+<ImageWithHint src="/images/NFC2.jpg" alt="2.添加学生卡" imgClass="h-80" class="w-fit m-auto" />
+<ImageWithHint src="/images/NFC3.jpg" alt="3.添加成功" imgClass="h-80" class="w-fit m-auto" />
+<ImageWithHint src="/images/NFC4.jpg" alt="4.NFC模拟校园卡" imgClass="h-80" class="w-fit m-auto" />
 </div>
 
 ---
@@ -132,12 +132,12 @@ logoPosition: top-right
 #### [BUCT导航 https://buct.snc.moe](https://buct.snc.moe)
 
 
-<ImageWithHint src="../../images/buctsnc_nav_screenshot.png" alt="BUCT导航" imgClass="h-100 m-4" class="w-fit m-auto" />
+<ImageWithHint src="/images/buctsnc_nav_screenshot.png" alt="BUCT导航" imgClass="h-100 m-4" class="w-fit m-auto" />
 ---
 
 #### [BUCTBASE https://base.snc.moe](https://base.snc.moe)
 
-<ImageWithHint src="../../images/buctbase_screenshot.png" alt="BUCT BASE" imgClass="h-100 m-4" class="w-fit m-auto" />
+<ImageWithHint src="/images/buctbase_screenshot.png" alt="BUCT BASE" imgClass="h-100 m-4" class="w-fit m-auto" />
 
 ---
 layout: two-cols-header
@@ -161,7 +161,7 @@ X-ware服务是学生网络中心为全校同学**义务**提供的电脑维修�
 
 ::right::
 
-<ImageWithHint src="../../images/X-ware.jpg" alt="添加内存" imgClass="h-90" class="w-fit m-auto" />
+<ImageWithHint src="/images/X-ware.jpg" alt="添加内存" imgClass="h-90" class="w-fit m-auto" />
 
 ---
 hideLogo: true

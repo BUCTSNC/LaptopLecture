@@ -36,6 +36,7 @@ layout: section
 
 ---
 background: images/recommendation/tablet/iPadOS.jpg
+dim: true
 ---
 
 ## iPad OS 相对于安卓平台的优势
@@ -55,6 +56,7 @@ background: images/recommendation/tablet/iPadOS.jpg
 ---
 layout: cols
 background: /images/recommendation/tablet/matepad11.5_柔光版.webp
+dim: false
 ---
 
 <style scoped>
@@ -82,6 +84,7 @@ HUAWEI MatePad 11.5S
 ---
 layout: cols
 background: images/recommendation/tablet/ipad_air6.jpg
+dim: false
 ---
 
 <style scoped>

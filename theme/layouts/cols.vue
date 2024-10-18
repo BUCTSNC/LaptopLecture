@@ -10,6 +10,10 @@ const props = defineProps({
     type: String,
     default: undefined,
   },
+  dim: {
+    type: Boolean,
+    default: true,
+  },
   cols: {
     type: Number,
     default: undefined,
@@ -21,7 +25,7 @@ const props = defineProps({
   }
 })
 
-const style = computed(() => handleBackground(props.background, true))
+const style = computed(() => handleBackground(props.background, props.dim))
 
 const colIds = computed(() => {
   const colIds: string[] = []

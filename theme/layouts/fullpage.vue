@@ -11,7 +11,7 @@ const props = defineProps({
   },
 })
 
-const style = computed(() => handleBackground(props.background, true))
+const style = computed(() => handleBackground(props.background, props.dim))
 </script>
 
 <style>

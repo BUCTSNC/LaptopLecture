@@ -11,6 +11,11 @@
 英文看不懂？推荐[**沉浸式翻译**](https://immersivetranslate.com/)浏览器插件，中英对照
 
 ---
+layout: iframe
+url: https://immersivetranslate.com/
+---
+
+---
 
 ## AI
 
@@ -102,13 +107,15 @@ hideLogo: true
 
 [认证地址 https://tree.buct.edu.cn/](https://tree.buct.edu.cn/)
 
+连接校园网尽量不要更改默认DNS设置，否则可能出现校内界面打不开的情况
+
 如果打不开尝试：
 - [http://202.4.130.95/](http://202.4.130.95/) 
 - [http://202.4.130.82/](http://202.4.130.82/)
 
 ---
 
-### NFC（仅限安卓）
+### NFC
 
 学校NFC可以刷房门和食堂部分机器
 
@@ -147,7 +154,7 @@ layout: two-cols-header
 
 ::left::
 
-X-ware服务是学生网络中心为全校同学**义务**提供的电脑维修服务，至今已有20年的历史。主要工作包括：
+X-ware服务是学生网络中心为全校同学提供的电脑维修服务，至今已有20年的历史。主要工作包括：
 
 - 提供电脑硬件升级建议
 - 硬件故障排查

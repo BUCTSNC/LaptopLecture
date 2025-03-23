@@ -9,7 +9,7 @@
     "export": "gulp export"
   },
   "dependencies": {
-    "@iconify-json/mdi": "^1.1.68",
+    "@iconify-json/mdi": "^1.2.3",
     "@slidev/cli": "^0.49.23",
     "@slidev/theme-apple-basic": "^0.25.1",
     "@slidev/theme-default": "latest",

@@ -122,7 +122,6 @@ background: stone-900
     轻娱乐/办公
   </div>
 </div>
-
 <!-- 前三者：游戏模式，耗电嗷嗷快
 后三者：省电模式，耗电慢点，当然性能也差点 -->
 
@@ -169,13 +168,14 @@ hideLogo: true
 ---
 
 <div class="overflow-y-auto h-150 w-full px-16">
-  <img src="/images/geforce_laptops_compare.png" class="w-full h-fit" />
+  <img src="/images/50_geforce_laptops_compare.jpeg" class="w-full h-fit" />
 </div>
 
 <!-- From: https://www.nvidia.cn/geforce/laptops/compare/ -->
 ---
 layout: image
 image: /images/ababa.png
+
 backgroundSize: 20em
 ---
 
@@ -210,13 +210,17 @@ code {
   --uno: 'dark !text-7xl'
 }
 </style>
-
-`NVIDIA RTX 4060 8GB`
+`NVIDIA RTX 5060 8GB`
 
 ---
-layout: iframe
-url: https://www.mydrivers.com/zhuanti/tianti/gpum/
+layout: fullpage
+background: black
+hideLogo: true
 ---
+
+<div class="overflow-y-auto h-150 w-full px-16">
+  <img src="/images/gpu_ranking.jpeg" class="w-full h-fit" />
+</div>
 
 <!-- 代际比较
 当然，你也可以选择查询天梯图，会更加准确 -->
@@ -287,7 +291,7 @@ layout: center
   <QRCodeWithHint
     :width="180"
     type="canvas"
-    data="https://www.mydrivers.com/zhuanti/tianti/gpum/"
+    data="https://rank.kkj.cn/Computer75.shtml"
     :imageOptions="{ margin: 10 }"
     :dotsOptions="{ type: 'extra-rounded'}"
     hint="移动端显卡"
@@ -309,6 +313,7 @@ layout: center
     hint="桌面端显卡"
   />
 </div>
+
 
 ---
 

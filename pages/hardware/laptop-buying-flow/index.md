@@ -1,22 +1,40 @@
 ---
+layout: statement
+background: red-600
+---
+
+<v-click>
+<div class="text-7xl text-white">早买早享受</div>
+</v-click>
+
+<v-click>
+<div class="mt-4 text-7xl text-yellow-300">晚买享涨价</div>
+</v-click>
+
+<!--
+这里用一句玩笑带过今年的价格环境，不展开具体涨幅；后面仍然回到专业需求和实际配置。
+-->
+
+---
 layout: section
 ---
 
 # 大学生的第一份笔记本选购指南
 
-<!-- 考虑到多数对计算机比较了解的同学应该都在高考完就买完电脑了吧
-这里我们就只简单讲一下笔记本的选购，就不深入讲各种硬件知识了，
-很多同学可能也不感兴趣，软件部分更能提高大家的在校体验 -->
+<!--
+本节主线：先教大家读懂商品页上的硬件名称，再把参数翻译成自己的需求，最后走一遍从需求判断到验机的完整流程。
+开场可以说：这里不报一串很快过时的具体型号，而是教大家以后自己也能看懂。
+-->
 
-<!-- TODO: 增加验机内容 -->
 ---
 src: ./hardware-basic.md
 ---
 
-<!-- Slides will be imported from ./hardware-basic.md -->
+<!-- 型号读懂了，下面把这些参数放回整台电脑里，看不同类型的产品在取舍什么。 -->
 
 ---
 src: ./laptop-classification.md
+layout: default
 ---
 
 <!-- Slides will be imported from ./laptop-classification.md -->
@@ -25,42 +43,42 @@ src: ./laptop-classification.md
 src: ./clearify-requirements.md
 ---
 
-<!-- Slides will be imported from ./clearify-requirements.md -->
+<!-- 需求明确以后，再补充购买时常见的坑点。 -->
 
 ---
 src: ./faqs/index.md
 ---
 
-<!-- Slides will be imported from ./faqs/index.md -->
+<!-- 这些坑点是买电脑时需要留意的地方，不对应具体型号推荐。 -->
+
+---
+layout: center
+---
+
+### 2026 年笔记本选购指南
+
+<QRCodeWithHint
+  class="m-auto w-fit"
+  :width="280"
+  type="canvas"
+  :margin="10"
+  data="https://www.kdocs.cn/l/chzEHrH90jRz"
+  :backgroundOptions="{ color: '#ffffff' }"
+  :imageOptions="{ margin: 10 }"
+  :dotsOptions="{ type: 'extra-rounded', color: '#0f766e' }"
+  hint="扫码查看"
+/>
 
 ---
 layout: statement
-title: 确定预算
 ---
 
-[接下来，确定你的预算]{.text-7xl}
+## 记得去线下实体店摸摸看看，体验实际质感
 
-
----
-layout : cols
----
-
-::0::
-
-# 北京消费券
-
-<ImageWithHint src="/images/京东3C数码产品活动.png" alt="京东北京消费券" imgClass="h-100" class="w-fit m-auto" />
-
-::1::
-
-对于笔记本电脑、PC电脑、电视、空调和电冰箱等家电最高可享 20％ 的消费补贴，每件最高补贴不超过 2000 元。部分商品不需要以旧换新即可直接下单使用享优惠，部分商品则需要以旧换新才可以。
-
-其中，笔记本电脑不许以旧换新可直接享受优惠，结算时按京东自营价格的 8折 计算。
-
-当前仅限北京地区
+<!-- 纸面参数过关以后，重量、键盘、屏幕观感和风扇声音还得靠真机确认。 -->
 
 ---
-src: ./choose.md
+src: ./check-new-laptop.md
 ---
 
-<!-- Slides will be imported from ./choose.md -->
+<!-- 最后从“买哪台”转到“收到以后怎么办”，讲清证据保留、配置核对和退换期检查。 -->

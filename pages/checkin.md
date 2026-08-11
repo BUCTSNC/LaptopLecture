@@ -6,7 +6,7 @@ layout: center
 
 <div class="grid grid-cols-[330px_200px_200px] gap-8 items-center mt-4">
   <div class="text-center">
-    <img src="/images/checkin.jpg" alt="讲座签到小程序码" class="h-92 w-fit m-auto" />
+    <img src="/images/checkin1.jpg" alt="讲座签到小程序码" class="h-92 w-fit m-auto" />
     <div>讲座签到</div>
   </div>
 

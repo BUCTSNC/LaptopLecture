@@ -39,74 +39,12 @@ background: images/recommendation/tablet/iPadOS.jpg
 dim: true
 ---
 
-## iPad OS 相对于安卓平台的优势
+## iPadOS 的优势
 
-新款的iPad的M系芯片有强大的性能，
+- M 系列芯片性能强
+- 笔记、绘画和视频剪辑类应用更成熟
+- 和 iPhone、Mac 配合更顺手
 
-各类专业软件配套
+### 但是
 
-在剪视频，记笔记，绘画等方面体验是领先的
-
-### 然而
-
-在价格方面也是领先的
-
-一套下来5K+
-
----
-layout: cols
-background: /images/recommendation/tablet/matepad11.5_柔光版.webp
-dim: false
----
-
-<style scoped>
-p {
-  --uno: text-slate-950;
-}
-</style>
-
-::0::
-
-::1::
-HUAWEI MatePad 11.5S
-
-屏幕尺寸：11英寸 :vary-chip{to="11英寸 柔光版" cost=300}
-内存及存储：8GB+128GB :vary-chip{to="8GB+256GB" cost=200}
-
-选配配件：
-- :vary-chip{to="电容笔" cost=500}
-- :vary-chip{to="键盘保护套" cost=500}
-
-参考价格: [￥2100]{.text-red-500 .text-4xl}
-
-问题：性能比较一般，原神，崩坏：星穹铁道等对性能需求较高的游戏帧数较低
-
----
-layout: cols
-background: images/recommendation/tablet/ipad_air6.jpg
-dim: false
----
-
-<style scoped>
-p {
-  --uno: text-slate-950;
-}
-</style>
-
-::0::
-
-iPad 外设只推荐电容笔
-
-其他外设建议购买其他品牌
-
-::1::
-
----
-
-<ImageWithHint src="/images/recommendation/tablet/ipad_air_price.png" alt="苹果官网显示价格" imgClass="w-full" class="h-fit m-auto" />
-
-当前学生优惠，免费送电容笔
-
-屏幕尺寸：11英寸 :vary-chip{to="13英寸" cost=1700}
-存储：128GB :vary-chip{to="256GB" cost=800}
-无线局域网机型 :vary-chip{to="无线局域网 + 蜂窝网络机型" cost=800}
+设备、存储和配件通常也更贵

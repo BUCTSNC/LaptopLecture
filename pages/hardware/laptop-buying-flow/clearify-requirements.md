@@ -61,6 +61,10 @@ layout: section
    > 这里的**PD移动电源**是指支持PD协议的移动电源，输出功率较高，可以为笔记本电脑充电，购买时注意甄别
 
 ---
+src: ./faqs/macbook.md
+---
+
+---
 layout: statement
 ---
 

@@ -225,66 +225,6 @@ layout: two-cols-header
 layout: two-cols-header
 ---
 
-### 公网 IP、DDNS 和端口映射
-
-::left::
-
-#### 先检查公网 IP
-
-1. 在路由器后台查看 WAN IPv4
-2. 与浏览器查询到的公网 IPv4 对比
-3. 若是私有地址、运营商 CGNAT，或两者明显不同，端口映射通常无效
-4. 给宿舍电脑设置 DHCP 地址保留，避免局域网 IP 变化
-5. 在路由器配置 DDNS，将动态公网 IP 绑定到域名
-
-::right::
-
-#### 需要映射的端口
-
-| 协议 | 端口 |
-| --- | --- |
-| TCP | `47984`、`47989`、`48010` |
-| UDP | `47998`、`47999`、`48000`、`48002`、`48010` |
-
-Moonlight 中添加 DDNS 域名。不要把 Apollo 管理页面的 `47990/TCP` 暴露到公网。
-
-<!-- 端口表来自 Moonlight 官方 Setup Guide；Apollo 兼容 Sunshine/GameStream 端口族。 -->
-
-<!--
-讲解提示：默认路线到上一页 Tailscale 就已经结束。本页和下一页只作为有公网 IPv4、愿意继续折腾的进阶分支，时间紧可以跳过。
--->
-
----
-layout: two-cols-header
----
-
-### 路由器端口映射示例
-
-::left::
-
-#### NAT / 端口转发示例
-
-| 外部端口 | 协议 | 内部 IP | 内部端口 |
-| --- | --- | --- | --- |
-| `47984` | TCP | `192.168.1.50` | `47984` |
-| `47998` | UDP | `192.168.1.50` | `47998` |
-
-`192.168.1.50` 是给宿舍电脑做 DHCP 地址保留后的局域网 IP；其余端口按上一页表格逐条添加。
-
-::right::
-
-#### 这些字段分别填什么
-
-- **内部 IP**：填写运行 Apollo 的宿舍电脑，不要填路由器地址。
-- **端口**：外部端口和内部端口通常保持一致，协议按 TCP / UDP 分开建规则。
-- **DDNS**：把变化的公网 IP 映射到域名；它不能绕过运营商 CGNAT。
-
-如果 WAN 地址不是公网地址，就使用 Tailscale。即使连接失败，也不要把 Apollo 管理页面开放到公网。
-
----
-layout: two-cols-header
----
-
 ### 连不上或卡顿时怎么排查
 
 ::left::
@@ -345,6 +285,21 @@ layout: two-cols-header
 <ImageWithHint src="/images/NFC3.jpg" alt="3.添加成功" imgClass="h-80" class="w-fit m-auto" />
 <ImageWithHint src="/images/NFC4.jpg" alt="4.NFC模拟校园卡" imgClass="h-80" class="w-fit m-auto" />
 </div>
+
+
+
+---
+layout: center
+---
+
+<img src="/images/63p3.jpg" alt="三等奖" class="h-100 w-fit m-auto" />
+
+---
+layout: center
+---
+
+<img src="/images/63p4.jpg" alt="四等奖" class="h-100 w-fit m-auto" />
+
 
 ---
 layout: section

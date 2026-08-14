@@ -69,3 +69,15 @@ layout: statement
 ---
 
 <h1>够用即可</h1>
+
+---
+layout: statement
+---
+
+<img src="/images/29p2 (3).jpg" alt="一等奖" class="h-100 w-fit m-auto" />
+
+---
+layout: statement
+---
+
+<img src="/images/29p2 (1).jpg" alt="二等奖" class="h-100 w-fit m-auto" />
